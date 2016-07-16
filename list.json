@@ -1,0 +1,22 @@
+1.创建群
+http://localhost/group/addNewGroup?name=222&user.id=1&label.name=123&extLabel=1234,123,456,123,456
+中文乱码问题
+2.删除群
+http://localhost:8080/core/group/deleteGroup?id=1
+3.获取群详细
+http://localhost:8080/core/group/getDetail?id=6
+4.加圈子
+http://localhost:8080/core/group/addGroup?groupid=5&userid=2
+5.更新简介
+http://localhost:8080/core/group/updateGroupInfo?id=27&name=%E7%A0%81%E5%86%9C%E7%BF%BB%E8%BA%AB&description=%E8%BF%99%E5%B0%B1%E6%98%AF%E7%AE%80%E4%BB%8B---by%E5%B0%B9%E7%94%B7%E7%94%B7&user.user=bbb&label.name=java
+
+6.添加publicSign这个暂时不用
+http://localhost:8080/core/publicSign/add?content=%E6%88%91%E6%98%AF%E6%8A%93%E7%8B%82&createUser.id=1
+7 注册
+http://localhost:8080/core/user/reg?user=【你的用户名】&email=【你的email】&password=【你的密码】&sex=boy
+
+8登陆
+http://localhost:8080/core/user/login?password=112311111a&email=11@qq.com
+
+9 检查用户是否已经被注册
+http://localhost:8080/core/user/isReg?user=【】%email=【】&id=【】

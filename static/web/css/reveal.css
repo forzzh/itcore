@@ -1,0 +1,176 @@
+.reveal-modal-bg {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background: #000;
+	background: rgba(0, 0, 0, .8);
+	z-index: 100;
+	display: none;
+	top: 0;
+	left: 0;
+}
+
+.reveal-modal {
+	visibility: hidden;
+	top: 100px;
+	left: 50%;
+	margin-left: -300px;
+	width: 600px;
+	height: 478px;
+	background: #fff;
+	position: absolute;
+	z-index: 101;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 0 0 10px rgba(0, 0, 0, .4);
+	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .4);
+	-box-shadow: 0 0 10px rgba(0, 0, 0, .4);
+}
+
+.reveal-modal.answer {
+	width: 1067px;
+	height: 685px;
+	margin-left: -525px;
+}
+
+.reveal-modal.publish {
+	width: 1067px;
+	height: 850px;
+	margin-left: -525px;
+}
+
+.reveal-modal.ask {
+	width: 1067px;
+	height: 765px;
+	margin-left: -525px;
+}
+
+.reveal-modal .close-reveal-modal {
+	font-size: 36px;
+	line-height: .5;
+	position: absolute;
+	top: 55px;
+	right: 55px;
+	color: #333;
+	text-shadow: 0 -1px 1px rbga(0, 0, 0, .6);
+	font-weight: bold;
+	cursor: pointer;
+}
+
+
+/*对话框*/
+
+
+/*.tag {
+	width: 280px;
+	height: 80px;
+	border: 1px solid #ECECEC;
+	position: absolute;
+	background-color: #FFF;
+	z-index: 999;
+}
+
+.tag em {
+	border-width: 14px;
+    position: absolute;
+    bottom: -29px;
+	display: block;
+	left: 94px;
+	border-style: solid dashed dashed;
+	border-color: #ececec transparent transparent;
+	font-size: 0;
+	line-height: 0;
+}
+
+.tag span {
+	display: block;
+	border-width: 20px;
+	position: absolute;
+	bottom: -33px;
+	left: 88px;
+	border-style: solid dashed dashed;
+	border-color: #FFF transparent transparent;
+	font-size: 0;
+	line-height: 0;
+}*/
+
+.tipso_bubble,
+.tipso_bubble>.tipso_arrow {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box
+}
+
+.tipso_bubble {
+	width: 280px;
+	height: auto;
+	position: absolute;
+	text-align: center;
+	z-index: 9999;
+	background: #55b555;
+	color: #ffffff;
+	border: 1px solid #ececec;
+}
+
+.tipso_bubble>.tipso_arrow {
+	position: absolute;
+	width: 0;
+	height: 0;
+	border: 8px solid;
+	pointer-events: none;
+	border-bottom-color: transparent;
+	border-top-color: #55b555
+}
+
+.tipso_bubble.top>.tipso_arrow {
+	border-color: #000 transparent transparent;
+	top: 100%;
+	left: 50%;
+	margin-left: -8px
+}
+
+.tab-content {
+	width: 280px;
+	height: 80px;
+}
+
+.tipso_content span {
+	font-size: 16px;
+	display: inline-block;
+	color: #888;
+	margin: 35px 75px 0 15px;
+	padding-bottom: 35px;
+}
+
+.tipso_content a {
+	font-size: 16px;
+	display: inline-block;
+	color: red;
+}
+.tipso_title div{
+	padding: 20px 0 15px;
+}
+.tipso_title img {
+	width: 81px;
+	height: 81px;
+	border-radius:50%;
+	float: left;
+	margin-left: 15px;
+}
+.tipso_title p {
+	width: 210px;
+	text-align: left;
+	float: left;
+	margin-left: 35px;
+	font-size: 16px;
+	color: #000;
+}
+.tipso_title span.campName{
+	font-size: 18px;
+	font-weight: bold;
+	padding-bottom: 15px;
+}
+.tipso_title span {
+	display: block;
+}

@@ -1,0 +1,492 @@
+
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+		<title>我的</title>
+		<meta name="keywords" content="">
+		<meta name="description" content="">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/reveal.css" />
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.reveal.js"></script>
+	</head>
+
+	<body>
+		<div class="my">
+			<div class="content relative">
+				<nav>
+					<ul class="clearfix">
+						<li class="fl"><a href="camp.html">大小营地</a></li>
+						<li class="fl"><a href="label.html">长短标签</a></li>
+						<li class="fl"><a href="book.html">图书推荐</a></li>
+						<li class="fr"><a href="reg.html">注册</a></li>
+						<li class="fr"><a href="login.html">登录</a></li>
+						<li class="fr"><a href="QA.html">技术问答</a></li>
+					</ul>
+				</nav>
+				<img width="1282" src="images/my.jpg">
+			</div>
+		</div>
+		<div class="center">
+			<div class="content clearfix">
+				<div class="my-left">
+					<ul>
+						<li><a href="">基本信息</a></li>
+						<li><a href="">扯淡话题</a></li>
+						<li><a href="">我的营地</a></li>
+						<li><a href="">我的标签</a></li>
+						<li><a href="">我的书架</a></li>
+						<li><a href="">我的书架</a></li>
+						<li><a href="">我的朋友</a></li>
+					</ul>
+				</div>
+				<div class="my-right">
+					<div class="contact f16 clearfix">
+						<i class="fl">IT</i>
+						<p class="fl"><span class="author">LSS</span>
+							<br />823297503@qq.com</p>
+					</div>
+				<!--	<div class="my-title">
+						扯蛋话题
+						<a href="#" class="createCamp" data-reveal-id="createCamp"></a>
+					</div>
+					<div class="my-title">
+						我的营地
+						<a href="#" class="createCamp" data-reveal-id="publishTopic"></a>
+					</div>
+					<div class="my-title">
+						发布问题
+						<a href="#" class="createCamp" data-reveal-id="askTopic"></a>
+					</div>
+					<div class="my-title">
+						回答问题
+						<a href="#" class="createCamp" data-reveal-id="answerTopic"></a>
+					</div>-->
+					<div class="title">扯蛋话题
+						<a href="#" class="createCamp" data-reveal-id="createCamp"></a>
+					</div>
+					<div class="my-title">我写的话题</div>
+					<div class="part2 relative">
+						<ul>
+							<li>
+								<div class="f16 clearfix">
+									<i class="f21 fl">前</i>
+									<p class="fl"><span class="author c44">Kaja</span>&nbsp;&nbsp;&nbsp;来自&nbsp;&nbsp;&nbsp;<span class="classify c44">前端美的不要不要的</span>
+										<br />2天前 · 432人阅读</p>
+								</div>
+								<div class="articleName">如何设计好用的触控手势</div>
+								<div class="articleCon">我们生活在一个人机互动频繁，由设备驱动的世界中。 随着触摸屏逐渐成为移动设备的标配，多点触控手势的广泛应用,让我们与手机、平板电脑甚至是笔记本电脑之间建立起了一种更宽广的联系方式。我们通过模拟真实世界的手势与屏幕上的各种元素进行互动，使许多曾经不曾想或者不敢想的人机交互方式变成了现实，同时手势操作的应用降低了人与物理设备之间的沟通...</div>
+							</li>
+							<li>
+								<div class="f16 clearfix">
+									<i class="f21 fl">前</i>
+									<p class="fl"><span class="author c44">Kaja</span>&nbsp;&nbsp;&nbsp;来自&nbsp;&nbsp;&nbsp;<span class="classify c44">前端美的不要不要的</span>
+										<br />2天前 · 432人阅读</p>
+								</div>
+								<div class="articleName">腾讯人气明星员工亲临黑白QQ发布会现场，场面火爆！</div>
+								<div class="articleCon">QQfun是腾讯官网的手办周边品牌，于10月12日正式发布了新品-黑白纯色QQ限定版，抛出了”I’M NOT_____“（我不____）的产品概念。除了线上微信朋友圈的html5的宣传片受到广泛传播外，线下的image店在当天也举行了发布会。虽然发布时间定为中午12点，但一大早就有外宾和腾讯同事来到image形象店一探究竟，纷们也亲临现场支持，现场火爆...</div>
+							</li>
+							<li>
+								<div class="f16 clearfix">
+									<i class="f21 fl">前</i>
+									<p class="fl"><span class="author c44">Kaja</span>&nbsp;&nbsp;&nbsp;来自&nbsp;&nbsp;&nbsp;<span class="classify c44">前端美的不要不要的</span>
+										<br />2天前 · 432人阅读</p>
+								</div>
+								<div class="articleName">如何设计好用的触控手势</div>
+								<div class="articleCon">我们生活在一个人机互动频繁，由设备驱动的世界中。 随着触摸屏逐渐成为移动设备的标配，多点触控手势的广泛应用,让我们与手机、平板电脑甚至是笔记本电脑之间建立起了一种更宽广的联系方式。我们通过模拟真实世界的手势与屏幕上的各种元素进行互动，使许多曾经不曾想或者不敢想的人机交互方式变成了现实，同时手势操作的应用降低了人与物理设备之间的沟通...</div>
+							</li>
+						<!--	<li><a href="">更多</a></li>-->
+						</ul>
+					</div>
+					
+					<div class="my-title">我收藏话题</div>
+					<div class="part2 relative">
+						<ul>
+							<li>
+								<div class="f16 clearfix">
+									<i class="f21 fl">前</i>
+									<p class="fl"><span class="author c44">Kaja</span>&nbsp;&nbsp;&nbsp;来自&nbsp;&nbsp;&nbsp;<span class="classify c44">前端美的不要不要的</span>
+										<br />2天前 · 432人阅读</p>
+								</div>
+								<div class="articleName">如何设计好用的触控手势</div>
+								<div class="articleCon">我们生活在一个人机互动频繁，由设备驱动的世界中。 随着触摸屏逐渐成为移动设备的标配，多点触控手势的广泛应用,让我们与手机、平板电脑甚至是笔记本电脑之间建立起了一种更宽广的联系方式。我们通过模拟真实世界的手势与屏幕上的各种元素进行互动，使许多曾经不曾想或者不敢想的人机交互方式变成了现实，同时手势操作的应用降低了人与物理设备之间的沟通...</div>
+							</li>
+							<li>
+								<div class="f16 clearfix">
+									<i class="f21 fl">前</i>
+									<p class="fl"><span class="author c44">Kaja</span>&nbsp;&nbsp;&nbsp;来自&nbsp;&nbsp;&nbsp;<span class="classify c44">前端美的不要不要的</span>
+										<br />2天前 · 432人阅读</p>
+								</div>
+								<div class="articleName">腾讯人气明星员工亲临黑白QQ发布会现场，场面火爆！</div>
+								<div class="articleCon">QQfun是腾讯官网的手办周边品牌，于10月12日正式发布了新品-黑白纯色QQ限定版，抛出了”I’M NOT_____“（我不____）的产品概念。除了线上微信朋友圈的html5的宣传片受到广泛传播外，线下的image店在当天也举行了发布会。虽然发布时间定为中午12点，但一大早就有外宾和腾讯同事来到image形象店一探究竟，纷们也亲临现场支持，现场火爆...</div>
+							</li>
+							<li>
+								<div class="f16 clearfix">
+									<i class="f21 fl">前</i>
+									<p class="fl"><span class="author c44">Kaja</span>&nbsp;&nbsp;&nbsp;来自&nbsp;&nbsp;&nbsp;<span class="classify c44">前端美的不要不要的</span>
+										<br />2天前 · 432人阅读</p>
+								</div>
+								<div class="articleName">如何设计好用的触控手势</div>
+								<div class="articleCon">我们生活在一个人机互动频繁，由设备驱动的世界中。 随着触摸屏逐渐成为移动设备的标配，多点触控手势的广泛应用,让我们与手机、平板电脑甚至是笔记本电脑之间建立起了一种更宽广的联系方式。我们通过模拟真实世界的手势与屏幕上的各种元素进行互动，使许多曾经不曾想或者不敢想的人机交互方式变成了现实，同时手势操作的应用降低了人与物理设备之间的沟通...</div>
+							</li>
+							<!--<li><a href="">更多</a></li>-->
+						</ul>
+					</div>
+					<div class="title">我的营地
+						<a href="#" class="createCamp" data-reveal-id="publishTopic"></a>
+					</div>
+					<dl class="labelPart myLabel">
+						<dt>我关注的</dt>
+						<dd class="partContent">
+							<ul class="boxList clearfix">
+								<li><a href="">Java研习地</a></li>
+								<li><a href="">PHP</a></li>
+								<li><a href="">上海.Net聚集地</a></li>
+								<li><a href="">VR科技迷</a></li>
+								<li><a href="">上海.Net聚集地</a></li>
+								<li><a href="">运营狗狗狗</a></li>
+								<li><a href="">太阳能 VS 电能</a></li>
+								<li><a href="">Java研习地</a></li>
+								<li><a href="">PHP</a></li>
+								<li><a href="">上海.Net聚集地</a></li>
+								<li><a href="">VR科技迷</a></li>
+								<li><a href="">上海.Net聚集地</a></li>
+								<li><a href="">运营狗狗狗</a></li>
+								<li><a href="">PHP</a></li>
+								<li><a href="">上海.Net聚集地</a></li>
+								<li><a href="">VR科技迷</a></li>
+								<li><a href="">上海.Net聚集地</a></li>
+								<li><a href="">运营狗狗狗</a></li>
+								<li><a href="">PHP</a></li>
+								<li><a href="">上海.Net聚集地</a></li>
+							</ul>
+						</dd>
+					</dl>
+					<dl class="labelPart myLabel">
+						<dt>我创建的</dt>
+						<dd class="partContent">
+							<ul class="boxList clearfix">
+								<li><a href="">Java研习地</a></li>
+								<li><a href="">PHP</a></li>
+								<li><a href="">上海.Net聚集地</a></li>
+								<li><a href="">VR科技迷</a></li>
+								<li><a href="">上海.Net聚集地</a></li>
+								<li><a href="">运营狗狗狗</a></li>
+								<li><a href="">太阳能 VS 电能</a></li>
+								<li><a href="">Java研习地</a></li>
+								<li><a href="">PHP</a></li>
+								<li><a href="">上海.Net聚集地</a></li>
+								<li><a href="">VR科技迷</a></li>
+								<li><a href="">上海.Net聚集地</a></li>
+								<li><a href="">运营狗狗狗</a></li>
+								<li><a href="">PHP</a></li>
+								<li><a href="">上海.Net聚集地</a></li>
+							</ul>
+						</dd>
+					</dl>
+					<div class="title">我的标签
+						<a href="#" class="createCamp" data-reveal-id="askTopic"></a>
+					</div>
+					<dl class="labelPart myLabel">
+						<dt>我关注的</dt>
+						<dd class="partContent">
+							<ul class="clearfix">
+								<li><a href="">Java研习地</a></li>
+								<li><a href="">PHP</a></li>
+								<li><a href="">上海.Net聚集地</a></li>
+								<li><a href="">。</a></li>
+								<li><a href="">VR科技迷</a></li>
+								<li><a href=""><span class="c22">上海.Net聚集地</span></a></li>
+								<li><a href="">运营狗狗</a></li>
+								<li><a href="">PHP</a></li>
+								<li><a href="">上海</a></li>
+								<li><a href="">Java研习地</a></li>
+								<li><a href="">PHP</a></li>
+								<li><a href="">上海.Net聚集地 </a></li>
+								<li><a href="">。</a></li>
+								<li><a href="">VR科技迷</a></li>
+								<li><a href=""><span class="c22">上海聚集地</span></a></li>
+								<li><a href="">运营狗狗</a></li>
+								<li><a href="">Java研习地</a></li>
+								<li><a href="">PHP</a></li>
+								<li><a href=""><span class="c22">上海.Net聚集地</span></a></li>
+								<li><a href="">。</a></li>
+								<li><a href="">VR科技迷</a></li>
+								<li><a href="">上海.Net聚集地</a></li>
+								<li><a href="">运营狗狗狗</a></li>
+								<li><a href="">PHP</a></li>
+								<li><a href="">PHP</a></li>
+								<li><a href="">上海</a></li>
+								<li><a href="">Java研习地</a></li>
+								<li><a href="">PHP</a></li>
+								<li><a href="">上海.Net聚集地 </a></li>
+								<li><a href="">。</a></li>
+								<li><a href="">VR科技迷</a></li>
+								<li><a href=""><span class="c22">上海.Net聚集地</span></a></li>
+								<li><a href="">运营狗狗</a></li>
+							</ul>
+						</dd>
+					</dl>
+					<dl class="labelPart myLabel">
+						<dt>我创建的</dt>
+						<dd class="partContent">
+							<ul class="clearfix">
+								<li><a href="">Java研习地</a></li>
+								<li><a href="">PHP</a></li>
+								<li><a href="">上海.Net聚集地</a></li>
+								<li><a href="">。</a></li>
+								<li><a href="">VR科技迷</a></li>
+								<li><a href=""><span class="c22">上海.Net聚集地</span></a></li>
+								<li><a href="">运营狗狗</a></li>
+								<li><a href="">PHP</a></li>
+								<li><a href="">上海</a></li>
+								<li><a href="">Java研习地</a></li>
+								<li><a href="">PHP</a></li>
+								<li><a href="">上海.Net聚集地 </a></li>
+								<li><a href="">。</a></li>
+								<li><a href="">VR科技迷</a></li>
+								<li><a href=""><span class="c22">上海聚集地</span></a></li>
+							</ul>
+						</dd>
+					</dl>
+					<div class="title">我的书架</div>
+					<ul class="partContent clearfix">
+						<li>
+							<a href=""><img src="images/booklist_01.jpg" alt="" width="240" /></a>
+							<p>aaa</p>
+							<p>aaaasda...</p>
+						</li>
+						<li>
+							<a href=""><img src="images/booklist_02.jpg" alt="" width="240" /></a>
+							<p>aaa</p>
+							<p>aaaasda...</p>
+						</li>
+						<li>
+							<a href=""><img src="images/booklist_03.jpg" alt="" width="240" /></a>
+							<p>aaa</p>
+							<p>aaaasda...</p>
+						</li>
+						<li>
+							<a href=""><img src="images/booklist_04.jpg" alt="" width="240" /></a>
+							<p>aaa</p>
+							<p>aaaasda...</p>
+						</li>
+						<li>
+							<a href=""><img src="images/booklist_01.jpg" alt="" width="240" /></a>
+							<p>aaa</p>
+							<p>aaaasda...</p>
+						</li>
+						<li>
+							<a href=""><img src="images/booklist_02.jpg" alt="" width="240" /></a>
+							<p>aaa</p>
+							<p>aaaasda...</p>
+						</li>
+						<li>
+							<a href=""><img src="images/booklist_03.jpg" alt="" width="240" /></a>
+							<p>aaa</p>
+							<p>aaaasda...</p>
+						</li>
+						<li>
+							<a href=""><img src="images/booklist_04.jpg" alt="" width="240" /></a>
+							<p>aaa</p>
+							<p>aaaasda...</p>
+						</li>
+						<li>
+							<a href=""><img src="images/booklist_01.jpg" alt="" width="240" /></a>
+							<p>aaa</p>
+							<p>aaaasda...</p>
+						</li>
+						<li>
+							<a href=""><img src="images/booklist_02.jpg" alt="" width="240" /></a>
+							<p>aaa</p>
+							<p>aaaasda...</p>
+						</li>
+						<li>
+							<a href=""><img src="images/booklist_03.jpg" alt="" width="240" /></a>
+							<p>aaa</p>
+							<p>aaaasda...</p>
+						</li>
+						<li>
+							<a href=""><img src="images/booklist_04.jpg" alt="" width="240" /></a>
+							<p>aaa</p>
+							<p>aaaasda...</p>
+						</li>
+						<li>
+							<a href=""><img src="images/booklist_01.jpg" alt="" width="240" /></a>
+							<p>aaa</p>
+							<p>aaaasda...</p>
+						</li>
+						<li>
+							<a href=""><img src="images/booklist_02.jpg" alt="" width="240" /></a>
+							<p>aaa</p>
+							<p>aaaasda...</p>
+						</li>
+						<li>
+							<a href=""><img src="images/booklist_03.jpg" alt="" width="240" /></a>
+							<p>aaa</p>
+							<p>aaaasda...</p>
+						</li>
+					</ul>
+					<div class="title">技术问答 
+						<a href="#" class="createCamp" data-reveal-id="answerTopic"></a>
+					</div>
+					<dl class="techAsk">
+						<dt>我回答的</dt>
+						<dd><a href="">如何设计好用的触控手势？</a></dd>
+						<dd><a href="">腾讯人气明星员工亲临黑白QQ好用的触控手势？</a></dd>
+						<dd><a href="">腾讯人气明星员工亲临黑白QQ发布会现场，场设计好用的触控手势？</a></dd>
+						<dd><a href="">腾好用的触控手势？</a></dd>
+						<dd><a href="">腾讯人气明星计好用的触控手势？</a></dd>
+						<dd><a href="">腾讯人气明星员工亲临黑的触控手势？</a></dd>
+						<dd><a href="">腾讯人气明星员工亲临黑白QQ发布会现场，场面火爆！</a></dd>
+					</dl>
+					<dl class="techAsk">
+						<dt>我提问的</dt>
+						<dd><a href="">如何设计好用的触控手势？</a><i class="answered"></i></dd>
+						<dd><a href="">腾讯人气明星员工亲临黑白QQ好用的触控手势？</a><i class="answered"></i></dd>
+						<dd><a href="">腾讯人气明星员工亲临黑白QQ发布会现场，场设计好用的触控手势？</a></dd>
+						<dd><a href="">腾好用的触控手势？</a></dd>
+						<dd><a href="">腾讯人气明星计好用的触控手势？</a><i class="answered"></i></dd>
+						<dd><a href="">腾讯人气明星员工亲临黑的触控手势？</a></dd>
+						<dd><a href="">腾讯人气明星员工亲临黑白QQ发布会现场，场面火爆！</a></dd>
+					</dl>
+					<div class="title">我的朋友</div>
+					<div class="part2 relative">
+						<ul class="friendList clearfix">
+							<li>
+								<div class="f16 clearfix">
+									<i class="f21 fl">前</i>
+									<p class="fl"><span class="author c44">Kaja</span><span class="classify c99">前端美的不要不要的</span>
+								</div>
+							</li>
+							<li>
+								<div class="f16 clearfix">
+									<i class="f21 fl">前</i>
+									<p class="fl"><span class="author c44">Kaja</span><span class="classify c99">前端美的不要不要的</span>
+								</div>
+							</li>
+							<li>
+								<div class="f16 clearfix">
+									<i class="f21 fl">前</i>
+									<p class="fl"><span class="author c44">Kaja</span><span class="classify c99">前端美的不要不要的</span>
+								</div>
+							</li>
+							<li>
+								<div class="f16 clearfix">
+									<i class="f21 fl">前</i>
+									<p class="fl"><span class="author c44">Kaja</span><span class="classify c99">前端美的不要不要的</span>
+								</div>
+							</li>
+							<li>
+								<div class="f16 clearfix">
+									<i class="f21 fl">前</i>
+									<p class="fl"><span class="author c44">Kaja</span><span class="classify c99">前端美的不要不要的</span>
+								</div>
+							</li>
+							<li>
+								<div class="f16 clearfix">
+									<i class="f21 fl">前</i>
+									<p class="fl"><span class="author c44">Kaja</span><span class="classify c99">前端美的不要不要的</span>
+								</div>
+							</li>
+							<li>
+								<div class="f16 clearfix">
+									<i class="f21 fl">前</i>
+									<p class="fl"><span class="author c44">Kaja</span><span class="classify c99">前端美的不要不要的</span>
+								</div>
+							</li>
+							<li>
+								<div class="f16 clearfix">
+									<i class="f21 fl">前</i>
+									<p class="fl"><span class="author c44">Kaja</span><span class="classify c99">前端美的不要不要的</span>
+								</div>
+							</li>
+							<li>
+								<div class="f16 clearfix">
+									<i class="f21 fl">前</i>
+									<p class="fl"><span class="author c44">Kaja</span><span class="classify c99">前端美的不要不要的</span>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="createCamp" class="reveal-modal add">
+			<div class="model-title">创建圈子<a class="close-reveal-modal">&#215;</a></div>
+			<form action="">
+				<div class="inputDiv">
+					<label for="">名称</label><input type="text" name="" id="" value="" /></div>
+				<div class="inputDiv"> <label for="">描述</label><input type="text" name="" id="" value="" />
+				</div>
+				<div class="buttonGroup">
+					<button class="close">关闭</button><button type="submit">保存</button>
+				</div>
+			</form>
+		</div>
+		<div id="publishTopic" class="reveal-modal publish">
+			<div class="model-title">发帖子<a class="close-reveal-modal">&#215;</a></div>
+			<form action="">
+				<div class="inputDiv">
+					<label for="">标题</label><input type="text" name="" id="" value="" />
+				</div>
+				<div class="inputDiv">
+					<label for="">图片</label><a href="" class="file">上传<input type="file" name="" id="" value="" /></a>
+				</div>
+				<div class="inputDiv">
+					<label for="">正文</label><textarea name="" id="" cols="30" rows="10"></textarea>
+				</div>
+				<div class="inputDiv">
+					<label for="">标签</label>
+					<a href="#" class="createCamp"></a>
+				<!--	<a href="#" class="createCamp" data-reveal-id="publishTopic"></a>-->
+				</div>
+				<div class="buttonGroup">
+					<button class="close">关闭</button><button type="submit">保存</button>
+				</div>
+			</form>
+		</div>
+		<div id="askTopic" class="reveal-modal ask">
+			<div class="model-title">发布问题<a class="close-reveal-modal">&#215;</a></div>
+			<form action="">
+				<div class="inputDiv">
+					<label for="">问题</label><input type="text" name="" id="" value="" />
+				</div>
+				<div class="inputDiv">
+					<label for="">描述</label><textarea name="" id="" cols="30" rows="10"></textarea>
+				</div>
+				<div class="inputDiv">
+					<label for="">标签</label>
+					<a href="#" class="createCamp" data-reveal-id="publishTopic"></a>
+				</div>
+				<div class="buttonGroup">
+					<button class="close">关闭</button><button type="submit">发布问题</button>
+				</div>
+			</form>
+		</div>
+		<div id="answerTopic" class="reveal-modal answer">
+			<div class="model-title">回答问题<a class="close-reveal-modal">&#215;</a></div>
+			<form action="">
+				<div class="inputDiv">
+					<label for="">问题</label>
+					<select name="">
+						<option value="">如何设计好用的触控手势?1</option>
+						<option value="">如何设计好用的触控手势?2</option>
+					</select>
+				</div>
+				<div class="inputDiv">
+					<label for="">答案</label><textarea name="" id="" cols="30" rows="10"></textarea>
+				</div>
+				<div class="buttonGroup">
+					<button class="close">关闭</button><button type="submit">回答问题</button>
+				</div>
+			</form>
+		</div>
+		<footer>© 2010-2016 IT聚集地™ </footer>
+	</body>
+
+</html>

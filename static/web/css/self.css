@@ -1,0 +1,30 @@
+form input[type=button] {
+	color: #fff;
+	font-size: 24px;
+	width: 405px;
+	height: 60px;
+	background: #228df0;
+	border-radius: 2px;
+	border: 0;
+}
+
+ select {
+	font-size: 24px;
+	color: #fff;
+	width: 405px;
+	height: 58px;
+	border: 1px solid #b9b9b9;
+	border-radius: 2px;
+	background: #999;
+}
+form input[type=password] {
+	font-size: 24px;
+	color: #fff;
+	width: 395px;
+	padding-left: 10px;
+	height: 58px;
+	border: 1px solid #b9b9b9;
+	border-radius: 2px;
+	background: #999;
+	/*opacity: .6;*/
+}
